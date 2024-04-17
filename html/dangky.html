@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <script src="../js/bootstrap.bundle.min.js"></script>
+    
+    <title>Trang chủ</title>
+</head>
+<body class="goto-here">
+	
+	<nav class="navbar navbar-expand-sm navbar-dark   ">
+		<div class="container-fluid justify-content-center">
+		  <a class="navbar-brand" href="index.html">
+			<img src="../img/logo2.png" 	width="100px" height="70px" alt="">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+			<span class="navbar-toggler-icon"></span>
+		  </button> 
+		  <div class="collapse navbar-collapse" id="mynavbar">
+			<ul class="nav nav-tabs">
+				<li class="nav-item dropdown">
+				  <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Dụng cụ</a>
+				  <ul class="dropdown-menu">
+					<li><a class="dropdown-item" href="dungcunhomkinh.html">Dụng cụ nhôm kính </a></li>
+					<li><a class="dropdown-item" href="dungcucokhi.html">Dụng cụ cơ khí</a></li>
+					<li><a class="dropdown-item" href="dungculammoc.html">Dụng cụ làm mộc</a></li>
+				  </ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Mũi Soi - Dao Tubi</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="muisoitaohinh.html">Mũi soi tạo hình </a></li>
+						<li><a class="dropdown-item" href="daotubighepgo.html">Dao tubi ghép gỗ</a></li>
+					</ul>
+				</li>
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Phụ kiện</a>
+					<ul class="dropdown-menu">
+					  <li><a class="dropdown-item" href="phukiengiaco.html">Phụ kiện giả cổ</a></li>
+					  <li><a class="dropdown-item" href="phukienban.html">Phụ kiện bàn</a></li>
+					</ul>
+				  </li>
+				
+				  <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Máy cầm tay</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="maycatcamtay.html">Máy cắt cầm tay</a></li>
+						<li><a class="dropdown-item" href="maycuacamtay.html">Máy cưa cầm tay</a></li>
+					  
+					</ul>
+				  </li>
+				
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Máy chế biến gỗ</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="maycuongo.html">Máy cuốn gỗ</a></li>
+						<li><a class="dropdown-item" href="maycuago.html">Máy cưa gỗ </a></li>
+					</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Chính sách hỗ trợ</a>
+					<ul class="dropdown-menu">
+						<li><a class="dropdown-item" href="../html/chinhsachdoitra.html">Chính sách đổi trả hàng</a></li>
+						<li><a class="dropdown-item" href="../html/chinhsachbaohanh.html">Chính sách bảo hành</a></li>
+					</ul>
+				</li>
+			</li>
+			<form class="d-flex align-items-center">
+				<input class="form-control form-control-sm me-2" type="text" placeholder="Tìm kiếm">
+				<button class="btn btn-primary btn-sm" type="button" style="background-color: black;">Tìm </button>
+			</form>
+		  </div>
+		  
+			<div class="customer-link">
+				<a href="../html/dangnhap.html">
+					<img src="../img/icon.jpg" alt="Đăng nhập" style="width: 30%; height: -50%;"> 
+				</a>
+			</div>
+		</div>
+		
+	  </nav>
+
+      <br>
+<div class="text">
+    <div class="row">
+        <div class="col-12 text-center fs-1 ">
+            Đăng ký
+        </div>
+    </div>
+</div>
+
+<section class="ftco-section bg-light">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-lg-10 order-md-last">
+				<div class="row">
+					<form action="">
+						<div class="mb-3 mt-3">
+							<label for="hoTen" class="text-end">Họ và tên :</label>
+							<input type="text" class="form-control" id="hoTen" placeholder="Họ và tên"
+								name="hoTen">
+								<span class="option-hoTen text-danger">*</span>
+						</div>
+
+						<div class="mb-3 mt-3">
+							<label for="email" class="form-label">Email:</label>
+							<input type="email" class="form-control" id="email" placeholder="Enter email"
+								name="email">
+								<span class="option-email text-danger">*</span>
+						</div>
+
+						<div class="mb-3 mt-3">
+							<label for="sdt" class="text-end">Số điện thoại :</label>
+							<input type="text" class="form-control" id="sdt" placeholder="Số điện thoại"
+								name="sdt">
+								<span class="option-sdt text-danger">*</span>
+						</div>
+
+						<div class="mb-3">
+							<label for="pwd" class="form-label">Password:</label>
+							<input type="password" class="form-control" id="pwd" placeholder="Enter password"
+								name="pswd">
+								<span class="option-pwd text-danger">*</span>
+						</div>
+
+						<div class="form-check mb-3">
+							<label class="form-check-label">
+								<input class="form-check-input" type="checkbox" name="remember"> Remember me
+							</label>
+						</div>
+						<button type="submit" class="btn btn-outline-danger" data-bs-dismiss="modal" type="submit">
+							Đăng ký
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+    <br>
+    <br>
+    <br>
+</section>
+
+<footer class="ftco-footer ftco-section text-lg-right ">
+	<div class="container">
+	  <br>
+	  <br>
+	  <div class="row mb-5">
+		<div class="col-md">
+		  <div class="ftco-footer-widget mb-4 ml-md-5">
+			<h2 class="ftco-heading-2">Liên hệ</h2>
+			  <div class="block-23 mb-3">
+				<ul>
+				  <li><span class="icon icon-map-marker"></span><span class="text">SĐT : 0788.638.801</span></li>
+				  <li><span class="icon icon-map-marker"></span><span class="text">Email : HuyHouse123@gmail.com</span></li>
+				</ul>
+			  </div>
+		  </div>
+		</div>
+		<div class="col-md-4">
+		   <div class="ftco-footer-widget mb-4">
+			<h2 class="ftco-heading-2">Chính sách </h2>
+			<div class="d-flex">
+			  <ul class="list-unstyled mr-l-5 pr-l-3 mr-4">
+				  <li><a href="chinhsachdoitra.html" class="py-2 d-block">Chính sách đổi trả hàng</a></li>
+				  <li><a href="chinhsachbaohanh.html" class="py-2 d-block">Chính sách bảo hành</a></li>
+			  </ul>
+		  </div>	
+		  </div>
+		</div>
+		<div class="col-md-4">
+		  <div class="ftco-footer-widget mb-4">
+			  <h2 class="ftco-heading-2">Nơi làm việc</h2>
+			  <div class="block-23 mb-3">
+				<ul>
+				  <li><span class="icon icon-map-marker"></span><span class="text">CÔNG TY TNHH HUYHOUSE</span></li>
+				  <li><span class="icon icon-map-marker"></span><span class="text">Địa chỉ : Chung cư FLORA Anh Đào - TP Thủ Đức</span></li>
+				  <li><span class="icon icon-map-marker"></span><span class="text">Đại diện : Trần Đan Huy</span></li>
+				</ul>
+			  </div>
+			  </div>
+			</div>
+		</div>
+	  </div>
+	</div>
+  </footer>
+  <script src="../js/xuly.js"></script>
+</body>
+</html> 
